@@ -8,6 +8,8 @@ import { fetchFromAPI } from '../utils/fetchFromAPI';
 const ChannelDetail = () =>  {
 
   const [channelDetail, setChannelDetail] = useState(null);
+
+  const{ id } 
   return (
     <div>
 
