@@ -9,7 +9,7 @@ const ChannelDetail = () =>  {
 
   const [channelDetail, setChannelDetail] = useState(null);
 
-  const{ id } 
+  const{ id } = useParams();
   return (
     <div>
 
