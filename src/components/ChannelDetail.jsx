@@ -12,7 +12,7 @@ const ChannelDetail = () =>  {
   const{ id } = useParams();
 
   useEffect(() => {
-    
+    fetchFromAPI(`channels?part="snippet&id=${id}`)
   })
   return (
     <div>
