@@ -6,7 +6,7 @@ import { fetchFromAPI } from '../utils/fetchFromAPI';
 
 function Feed() {
   const[selectedCategory, setSelectedCategory] = useState('New');
-  const[videos, setVideos] = useState([]);
+  const[videos, setVideos] = useState(null);
 
 
 
