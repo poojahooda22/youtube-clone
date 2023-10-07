@@ -5,6 +5,19 @@ import {Paper, IconButton} from '@mui/material';
 import {Search} from '@mui/icons-material';
 
 const SearchBar = () => {
+    const [searchTerm, setSearchTerm] = useState('');
+    const navigate = useNavigate();
+
+
+    const onhandleSubmit = (e) => {
+        e.preventDefault();
+    
+        if (searchTerm) {
+          navigate(`/search/${searchTerm}`);
+    
+          setSearchTerm('');
+        }
+    };
   return (
     <Paper
         component='form'
