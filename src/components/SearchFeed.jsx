@@ -20,7 +20,7 @@ const SearchFeed = () => {
        <span style={{ color: "#FC1503" }}>{searchTerm}</span> 
       </Typography>
       <Box display="flex">
-        <Box sx={{ mr: { sm: '130px' } }}/>
+        <Box sx={{ mr: { sm: '100px' } }}/>
         {<Videos videos={videos} />}
       </Box>
     </Box>
